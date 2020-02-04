@@ -1,0 +1,26 @@
+# Default values for sample app.
+
+image:
+  repository: my/repo
+  tag: "" # Expected be set on command line
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+replicaCount: 1
+imagePullSecretName: ""
+appSecretName: ""
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+configmap:
+  data:
+  - key: key.here
+    value: "value"
