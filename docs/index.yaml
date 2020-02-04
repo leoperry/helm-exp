@@ -3,12 +3,12 @@ entries:
   sample-app:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2020-02-04T14:35:15.783765-08:00"
+    created: "2020-02-04T14:48:39.080999-08:00"
     description: Sample app deployment
     digest: fae55a0e2a19490db7ef2154cb410f4e9e250165651b11b58b2941b190e9c79a
     name: sample-app
     type: application
     urls:
-    - https://github.com/leoperry/helm-exp/sample-app-0.0.1.tgz
+    - https://leoperry.github.io/helm-exp/sample-app-0.0.1.tgz
     version: 0.0.1
-generated: "2020-02-04T14:35:15.782849-08:00"
+generated: "2020-02-04T14:48:39.080046-08:00"
